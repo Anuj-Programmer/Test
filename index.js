@@ -1,7 +1,16 @@
 this is fine Hello Anuj this is my contirubution to the project
 mde some change in s march 21 by nishan  this is to bbe checked 
+
+function runSimulation() {
+    console.log('simulation run by mar22b1');
+    
+}
+
 function checkConflict() {
     console.log('By Anuj');
+    console.log('hello');
+    console.log('khaja k khane ');
+    
     
 }
 const express = require('express');
