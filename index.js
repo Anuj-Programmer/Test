@@ -1,4 +1,4 @@
-// Hello Anuj this is my contirubution to the project
+this is fine Hello Anuj this is my contirubution to the project
 
 const express = require('express');
 const connectDB = require('./config/database');
