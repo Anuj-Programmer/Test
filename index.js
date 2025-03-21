@@ -4,7 +4,8 @@ const express = require('express');
 const connectDB = require('./config/database');
 require('dotenv').config()
 const app = express()
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 5000;
+// these are the change i maade in index js files 
 // const Recipes = require('./models/recipes.model.js')
 
 //middleware
