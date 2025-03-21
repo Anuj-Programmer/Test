@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Management</h1>
+
+        <!-- Recipe Form -->
+        <div id="recipeForm">
+            <h2>Add / Edit Recipe</h2>
+            <form id="addRecipeForm">
+                <input type="hidden" id="recipeId"> <!-- Hidden field for updating -->
+                <input type="text" id="title" placeholder="Recipe Title" required>
+                <input type="text" id="category" placeholder="Category" required>
+                <input type="number" id="ratings" placeholder="Ratings" required>
+                <input type="text" id="image" placeholder="Image URL" required>
+                <input type="text" id="quantity" placeholder="Quantity" required>
+                <textarea id="direction" placeholder="Direction" required></textarea>
+                <textarea id="ingridients" placeholder="Ingredients" required></textarea>
+                <input type="text" id="time" placeholder="Time" required>
+                <textarea id="shortinfo" placeholder="Short Info" required></textarea>
+                <button type="submit">Save Recipe</button>
+            </form>
+        </div>
+
+        <!-- Recipe List -->
+        <div id="recipeList">
+            <h2>All Recipes</h2>
+            <div id="recipes" class="card-container"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
