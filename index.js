@@ -2,13 +2,17 @@ this is fine Hello Anuj this is my contirubution to the project
 mde some change in s march 21 by nishan  this is to bbe checked 
 function checkConflict() {
     console.log('By Anuj');
-    
+    console.log("hello");
+    console.log("new log added by anuj at 14:34");
 }
+
+changes made by anuj mar 22 to this file again
+
 const express = require('express');
 const connectDB = require('./config/database');
 require('dotenv').config()
 const app = express()
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 6000; // port changed
 // these are the change i maade in index js files 
 // const Recipes = require('./models/recipes.model.js')
 
