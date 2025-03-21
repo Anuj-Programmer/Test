@@ -1,10 +1,9 @@
 this is fine Hello Anuj this is my contirubution to the project
-
+mde some change in s march 21 by nishan  this is to bbe checked 
 function checkConflict() {
     console.log('By Anuj');
     
 }
-
 const express = require('express');
 const connectDB = require('./config/database');
 require('dotenv').config()
