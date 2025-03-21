@@ -1,5 +1,10 @@
 this is fine Hello Anuj this is my contirubution to the project
 
+function checkConflict() {
+    console.log('By Anuj');
+    
+}
+
 const express = require('express');
 const connectDB = require('./config/database');
 require('dotenv').config()
